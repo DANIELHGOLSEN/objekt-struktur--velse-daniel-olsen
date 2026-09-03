@@ -20,6 +20,7 @@
 // console.log(favoritMon.jordType);
 // console.log(favoritMon["stenType"]);
 
+
 // Opgave 2
 // favoritMon.topTrae.forEach(function (topTrae) {
 //     console.log(topTrae);
@@ -28,16 +29,33 @@
 // console.log(favoritMon.bedstegens.nummerTrae);
 
 
-let root = document.querySelector("#root");
+// Opgave 3
+// let root = document.querySelector("#root");
 
-const students = [
-    { name: "Sofie", age: 25, course: "Webudvikler" },
-    { name: "Lukas", age: 22, course: "Mediegrafiker" },
-    { name: "Emil", age: 28, course: "Teknisk Designer" },
-];
+// const students = [
+//     { name: "Sofie", age: 25, course: "Webudvikler" },
+//     { name: "Lukas", age: 22, course: "Mediegrafiker" },
+//     { name: "Emil", age: 28, course: "Teknisk Designer" },
+// ];
 
-students.forEach(function (student) {
-    const createDiv = document.createElement("div");
-    createDiv.textContent = student.name + ', Alder: ' + student.age + ', uddannelse: ' + student.course;
-    root.append(createDiv);
-})
+// students.forEach(function (student) {
+//     const createDiv = document.createElement("div");
+//     createDiv.textContent = student.name + ', Alder: ' + student.age + ', uddannelse: ' + student.course;
+//     root.append(createDiv);
+// })
+
+
+// Opgave 4
+// let root = document.querySelector("#root");
+
+// const students = [
+//     { name: "Sofie", age: 25, course: "Webudvikler" },
+//     { name: "Lukas", age: 22, course: "Mediegrafiker" },
+//     { name: "Emil", age: 28, course: "Teknisk Designer" },
+// ];
+
+// students.forEach(function (student) {
+//     const createDiv = document.createElement("div");
+//     createDiv.textContent = `${student.name}, Alder: ${student.age}, uddannelse: ${student.course}`;
+//     root.append(createDiv);
+// })
