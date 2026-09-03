@@ -1,18 +1,18 @@
-const favoritMon = {
-    vandType: "Carracosta",
-    normalType: "Cinccino",
-    jordType: "Excadrill",
-    stenType: "Carracosta",
-    graesType: "Torterra",
-    moerkType: "Weavile",
-    staalType: "Excadrill",
-    topTrae: ["Carracosta", "Dragalge", "Excadrill"],
-    bedstegens: {
-        nummerEt: 5,
-        nummerTo: 3,
-        nummerTrae: 4,
-    },
-}
+// const favoritMon = {
+//     vandType: "Carracosta",
+//     normalType: "Cinccino",
+//     jordType: "Excadrill",
+//     stenType: "Carracosta",
+//     graesType: "Torterra",
+//     moerkType: "Weavile",
+//     staalType: "Excadrill",
+//     topTrae: ["Carracosta", "Dragalge", "Excadrill"],
+//     bedstegens: {
+//         nummerEt: 5,
+//         nummerTo: 3,
+//         nummerTrae: 4,
+//     },
+// }
 
 // Opgave 1
 // console.log(favoritMon.vandType);
@@ -21,8 +21,23 @@ const favoritMon = {
 // console.log(favoritMon["stenType"]);
 
 // Opgave 2
-favoritMon.topTrae.forEach(function (topTrae) {
-    console.log(topTrae);
-})
+// favoritMon.topTrae.forEach(function (topTrae) {
+//     console.log(topTrae);
+// })
 
-console.log(favoritMon.bedstegens.nummerTrae);
+// console.log(favoritMon.bedstegens.nummerTrae);
+
+
+let root = document.querySelector("#root");
+
+const students = [
+    { name: "Sofie", age: 25, course: "Webudvikler" },
+    { name: "Lukas", age: 22, course: "Mediegrafiker" },
+    { name: "Emil", age: 28, course: "Teknisk Designer" },
+];
+
+students.forEach(function (student) {
+    const createDiv = document.createElement("div");
+    createDiv.textContent = student.name + ', Alder: ' + student.age + ', uddannelse: ' + student.course;
+    root.append(createDiv);
+})
