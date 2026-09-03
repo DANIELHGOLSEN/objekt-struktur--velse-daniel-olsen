@@ -59,3 +59,27 @@
 //     createDiv.textContent = `${student.name}, Alder: ${student.age}, uddannelse: ${student.course}`;
 //     root.append(createDiv);
 // })
+
+
+// Opgave 5 og 6
+// let root = document.querySelector("#root");
+
+// const students = [
+//     { name: "Sofie", age: 25, course: "Webudvikler" },
+//     { name: "Lukas", age: 22, course: "Mediegrafiker" },
+//     { name: "Emil", age: 28, course: "Teknisk Designer" },
+// ];
+
+// students.forEach(function (student) {
+//     const createDiv = document.createElement("div");
+//     createDiv.classList.add("student");
+
+//     const studentHeadline = document.createElement("h2");
+//     studentHeadline.textContent = student.name;
+
+//     const studentInfo = document.createElement("p");
+//     studentInfo.textContent = `Alder: ${student.age}, uddannelse: ${student.course}`;
+
+//     createDiv.append(studentHeadline, studentInfo);
+//     root.append(createDiv);
+// })
